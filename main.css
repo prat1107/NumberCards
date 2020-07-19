@@ -1,0 +1,87 @@
+
+div.main 
+{
+    float:left; 
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    background-color: lightslategray;
+}
+
+div.footer 
+{
+    float:left; 
+    clear: left;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: slategray;
+}
+
+div.canvas
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pane
+{
+	width:70%;
+	padding: 10px;
+    float: left;
+    background-color: whitesmoke;
+    height: 90%;
+}
+
+.buttonPane
+{
+	padding: 10px;
+    float: left;
+    background-color: whitesmoke;
+    width:25%;
+    height: 90%;
+}
+
+.card
+{
+	display: inline-block;
+	color:black;
+    height: 30%;
+    width: 30%;
+}
+
+.card .number{
+    font-family: sans-serif;
+    color: black;
+}
+
+.button {
+    background-color: lightblue;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .button:hover {opacity: 1}
+
+  @media screen and (min-width: 375px) {
+    div.number {
+      font-size: 8vw;
+    }
+  }
+  
+  @media screen and (max-width: 960px) {
+    div.number {
+      font-size: 10vw;
+    }
+  }
